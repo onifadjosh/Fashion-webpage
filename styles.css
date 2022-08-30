@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primcol:#031F24;
+    --seccol:#272525;
+}
+
+
+
+.nav-branding{
+    background-color:#272525;
+    color: #E5E5E5;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.8rem;
+    font-weight: 100;
+}
+
+.name{
+    color:#000000;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+}
+.white{
+    color: #F1F1F1;
+}
+
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px 10px 80px;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size:clamp(1.4rem, 1.3vw, 4.5rem) ;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--seccol);
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #FFFFFF;
+}
+
+.nav-stamp{
+    background-color:#272525;
+    color: #E5E5E5;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3rem;
+    font-weight: 100;
+}
+
+.header-content{
+    /* height: 70vh; */
+    background-color:#EFC5CD ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* .header-img-cont{
+    background-image: url(headerimg.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+
+.description{
+    display: block;
+    text-align: start;
+}
+
+.description>h1{
+    line-height: 50px;
+    font-size: clamp(2rem, 3.5vw, 7rem);
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+.nav-logo2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 15px;
+}
+
+.button{
+    background-color: var(--primcol);
+    color: #FFFFFF;
+    padding: 10px 15px ;
+    font-size: clamp(1.5rem, 1vw, 4rem);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.button:hover{
+    background-color: #FFFFFF;
+    color: var(--primcol);
+    font-weight: 700;
+}
+
+main{
+    height: 80vh;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    font-size: clamp(1.8rem, 1.3vw, 4rem);
+    margin-top: 30px;
+    font-weight: 700;
+
+}
+
+.main-content{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+
+}
+.main-content>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.main-content>div>p{
+    font-size: clamp(1rem, 1.3vw, 2.5rem);
+    line-height: 25px;
+    color:var(--seccol);
+    font-weight: 900;
+}
+
+.about-img1{
+    width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+.section1>h1{
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section1-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    align-items: flex-start;
+}
+
+.section1-content>div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section2{
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50% ), url(testimonials.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 80vh;
+}
+
+.section2>h1{
+    text-align: center;
+    padding-top: 7rem;
+
+}
+
+.section2>p, .section2>h1{
+    text-align: center;
+}
+
+.box1{
+    /* background-color:#F1F1F1; */
+    padding: 15px;
+    
+}
+
+.comments-container{
+    
+}
