@@ -260,5 +260,6 @@ main{
 }
 
 .comments-container{
+    display: flex;
     
 }
