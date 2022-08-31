@@ -237,7 +237,7 @@ main{
 }
 
 .section2{
-    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50% ), url(testimonials.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50% ), url(images\testimonials.jpg);
     background-position: top;
     background-size: cover;
     height: 80vh;
@@ -261,5 +261,5 @@ main{
 
 .comments-container{
     display: flex;
-    
+
 }
