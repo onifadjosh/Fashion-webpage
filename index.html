@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>Fashion Web</title>
 </head>
 <body>
@@ -37,7 +38,7 @@
                 <h2 class="nav-stamp">T</h2><h2 class="name">TW<span class="white">I</span>NEE</h2>
             </div>
     
-            <h1>Fashion and <br>Product <br>Stylist...</h1>
+            <h1>Fashion and <br>Product <br class="header-break">Stylist...</h1>
             
             <a class="button" href="#">Contact Me</a>
         </div>
@@ -78,7 +79,7 @@
  
             <div>
                 <img class="portfolio" src="images\imgg4.jpg" alt="">
-                <img class="portfolio" src="imgg5.jpg" alt="">
+                <img class="portfolio" src="images\imgg5.jpg" alt="">
                 <img class="portfolio" src="images\imgg6.jpg" alt="">
                 <img class="portfolio" src="images\imgg7.jpg" alt="">
             </div>
@@ -86,13 +87,13 @@
    </section>
 
     <section class="section2">
-       <h1>Testimonial</h1>
+       <h1 class="section2-heading">Testimonial</h1>
        <p>Hear what my clients are saying about me in the public.</p>
 
        <div class="comments-container">
            <div class="box1">
-               <img src="" alt="">
-               <p>
+               <img class="user" src="images/user1.jpg" alt="">
+               <p class="box-content">
                 Excellent customer service, <br>
                 their team responds in a very <br>
                 timely manner. Excellent <br>
@@ -104,8 +105,8 @@
            </div>
 
            <div class="box2">
-                <img src="" alt="">
-                <p>
+                <img class="user" src="images/user2.jpg" alt="">
+                <p class="box-content">
                      We have just lauch a new <br>
                      brand after a lot of research <br>
                      choose Twinee and some <br>
@@ -122,8 +123,8 @@
             </div>
 
             <div class="box3">
-                <img src="" alt="">
-                <p>
+                <img class="user" src="images/user3.jpg" alt="">
+                <p class="box-content">
                     Twinee team was very helpful <br>
                     and friendly. Post purchase <br>
                     support is 100% friendly and <br>
@@ -141,26 +142,57 @@
         </div>
     </section>
 
-   <section>
-       <h1>Client</h1>
-       <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+    <section class="section3">
+       <h1 class="section3-heading">Client</h1>
+       <div class="sponsors">
+        <img src="images/Asset 1.jpg" alt="">
+        <img src="images/Asset 2.jpg" alt="">
+        <img src="images/Asset 3.jpg" alt="">
+        <img src="images/Asset 4.jpg" alt="">
+        <img src="images/Asset 5.jpg" alt="">
        </div>
-   </section>
+    </section>
 
-   <footer>
-       <div>
-           <div>
-               <h1>Contact Info</h1>
-               <p>Phone:	+33 046 244 3912</p>
-               <p>Address:   285 Lexington Ave
-                New York, NY 12001</p>
-           </div>
-       </div>
+   <footer id="footer">
+    <div class="footer-wrapper">
+        <div class="contacts-wrapper">
+            <h1>Contact Info</h1>
+            <a class="contact phone" href="tel:+33 046 244 3912">Phone:+33 046 244 3912</a>
+            <address class="contact">Address:   285 Lexington Ave<br>
+             New York, NY 12001
+            </address>
+            <a class="contact mail" href="mailto:mail@twinee.com">Email:mail@twinee.com</a>
+    
+            <div class="social">
+                <h1>Social Network</h1>
+                <p class="contact">@twineetress At all social platform</p>
+            </div>
+        </div>
+    
+        <div>
+            <h1>Get Help</h1>
+            <ul class="footer-list">
+             <li class="footer-item"><a href="#" class="">Home</a></li>
+             <li class="footer-item"><a href="#" class="">About</a></li>
+             <li class="footer-item"><a href="#" class="">Portfolio</a></li>
+             <li class="footer-item"><a href="#" class="">Contact</a></li>
+            </ul>
+        </div>
+    
+        <div class="">
+            <h1>Let’s stay in touch</h1>
+            <div class="form">
+                <input class="input-mail" type="email" placeholder="your email address" name="" id="">
+                <input class="submit-button" type="submit" value="Contact Me">
+            </div>
+        </div>
+    
+        
+    </div>
+
+    <div class="policy">
+        <p>© 2022 codesbyPampam. </p>
+    </div>
    </footer>
 </body>
 </html>
