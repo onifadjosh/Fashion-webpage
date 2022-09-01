@@ -96,9 +96,8 @@
         flex-wrap: wrap;
     }
 
-    .box1,.box2, .box3{
-        width: 27rem;
-        height: 27rem;
+    .box.content{
+        padding: 2rem;
     }
 
     .asset{
