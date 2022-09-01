@@ -316,6 +316,7 @@ html{
     height: auto;
     max-width: 35%;
     border-radius: 100px;
+    margin-bottom: 0.5rem;
 }
 
 .box-content{
