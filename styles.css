@@ -311,10 +311,10 @@ html{
 
 .user{
     position: absolute;
-    top: -14%;
+    top: -16%;
     width: 100%;
     height: auto;
-    max-width: 40%;
+    max-width: 35%;
     border-radius: 100px;
 }
 
