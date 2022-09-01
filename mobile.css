@@ -95,6 +95,10 @@
     .comments-container{
         flex-wrap: wrap;
     }
+    .box1, .box2, .box3{
+        width: fit-content;
+        height: fit-content;
+    }
 
     .box.content{
         padding: 2rem;
@@ -108,5 +112,6 @@
 
     .footer-wrapper{
         flex-direction: column;
+        padding-left: 2rem;
     }
 }
